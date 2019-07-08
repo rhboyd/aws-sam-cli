@@ -1,0 +1,5 @@
+{
+  "HelloWorldFunction": {
+    "IP_CHECK_URL": "http://checkip.amazonaws.com/"
+  }
+}

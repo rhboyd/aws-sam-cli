@@ -37,6 +37,12 @@ This is a sample template for {{ cookiecutter.project_name }} - Below is a brief
 sam local invoke HelloWorldFunction --event event.json
 ```
 
+**Invoking function locally using sample environment variables**
+
+```bash
+sam local invoke HelloWorldFunction --event event.json --env-vars environment_variables.json
+```
+
 **Invoking function locally through local API Gateway**
 
 ```bash

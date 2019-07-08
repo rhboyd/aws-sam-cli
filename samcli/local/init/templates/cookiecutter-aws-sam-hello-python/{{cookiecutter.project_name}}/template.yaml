@@ -23,6 +23,9 @@ Resources:
       {%- else %}
       Runtime: python3.7
       {%- endif %}
+      Environment:
+        Variables:
+          IP_CHECK_URL: "YOUR_ENV_VAR_HERE"
       Events:
         HelloWorld:
           Type: Api # More info about API Event Source: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#api
